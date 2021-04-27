@@ -6,6 +6,7 @@
   <main>
     <router-view />
     <CreateCarModal />
+    <!-- <DisplayModalComponent /> -->
   </main>
   <footer>
     <div class="bg-dark text-light text-center p-4">
@@ -16,12 +17,14 @@
 
 <script>
 import CreateCarModal from './components/CreateCarModal.vue'
+// import DisplayModalComponent from './components//DisplayModalComponent'
 import Navbar from './components/Navbar'
 
 export default {
   components: {
     Navbar,
     CreateCarModal
+    // DisplayModalComponent
   }
 }
 </script>
